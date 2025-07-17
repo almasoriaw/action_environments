@@ -5,7 +5,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub "website-artifacts-${AWS::AccountId}-${AWS::Region}"
+      BucketName: website-artifacts-alma-unique-20250717
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
